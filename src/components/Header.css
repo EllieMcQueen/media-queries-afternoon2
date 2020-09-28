@@ -1,0 +1,90 @@
+html{
+    font-family: sans-serif, "Nunito";
+}
+
+
+.navbar {
+    width: 100vw;
+    background-color: rgba(0,0,0,.6);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-title {
+    color: #fff;
+    margin-left: 75px;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.navbar-menu {
+    margin-right: 75px;
+    font-size: 18px;
+}
+
+.navbar-menu a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.navbar-icon {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    height: 35px;
+    width: 50px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin-right: 75px;
+    cursor: pointer;
+}
+
+.menu {
+    height: 100vh;
+    width: 200px;
+    background:  rgba(0,0,0,.6);
+    position: fixed;
+    right: -200px;
+    display: flex;
+    transition: 15s;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+
+.slide {
+    right: 0;
+}
+
+.menu a {
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+@media (max-width: 750px) {
+    .navbar-menu {
+        display: none;
+    }
+
+    .navbar-icon {
+        display: flex;
+    }
+    
+
+    
+}
+
+@media(max-width: 750px){
+    .navbar-title{
+        font-size: 25px;
+        
+    }
+}
