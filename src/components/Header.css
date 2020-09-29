@@ -28,6 +28,7 @@ html{
     color: #fff;
     text-decoration: none;
     margin: 0 5px;
+    
 }
 
 .navbar-icon {
@@ -56,10 +57,12 @@ html{
     justify-content: flex-start;
     align-items: center;
     overflow: hidden;
+    transition: 10s;
 }
 
 .slide {
     right: 0;
+    transition: 1ms;
 }
 
 .menu a {
